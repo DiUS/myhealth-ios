@@ -3,7 +3,7 @@ myhealth-ios
 
 Mobile (iOS) client for myhealth, written with RubyMotion.
 
-NOTE - need access to a running instance of the myhealth server to run.
+NOTE - need access to a running instance of the myhealth server to run. This may/or may not still be available on heroku (http://rds-health.herokuapp.com/users/1/mobile_info/). If not, you'll have to get your own instance running from https://github.com/DiUS/myhealth. You should also run this on a real device, or work out how to add images to the iOS simulator.
 
 # What it does?
 
