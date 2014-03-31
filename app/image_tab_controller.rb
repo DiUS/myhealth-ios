@@ -15,10 +15,6 @@ class ImageTabController < UIViewController
     # view.addSubview(label)
   end
 
-  # def viewDidDisappear(animated)
-  #   self.view = nil
-  # end
-
   def barButtonItems
     flexibleSpace = UIBarButtonItem.alloc.initWithBarButtonSystemItem(UIBarButtonSystemItemFlexibleSpace, target:nil, action:nil)
     barButtonItems = []
@@ -120,10 +116,6 @@ class ImageTabController < UIViewController
 
   def format(listItems)
     listItems.join("\n\t")
-    # return "" if listItems.nil? || listItems.length == 0
-    # result = ""
-    # listItems.each {|c| result << "\t" + c + "\n" }
-    # result
   end
 
   def lightStandardFont(size)
