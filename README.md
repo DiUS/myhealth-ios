@@ -26,3 +26,10 @@ If you're interested in iOS apps written in RubyMotion, this app shows:
 * Rest API calls and JSON parsing
 * Use of Dispatch::Queue to create threads then sync back to main thread
 * UIActivityIndicatorView spinners
+
+# Next
+
+Things we ran out of time to do on hackday:
+* Add QR code image to wallpaper (myhealth server already exposes a URI)
+* Fix hardcoding to a specific user in myhealth
+* Appstore release ... PROFIT!
